@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+    background: hsla(260, 34%, 48%, 1);
+    background: linear-gradient(90deg, hsla(260, 34%, 48%, 1) 0%, hsla(330, 53%, 77%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(260, 34%, 48%, 1) 0%, hsla(330, 53%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(260, 34%, 48%, 1) 0%, hsla(330, 53%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6D51A5", endColorstr="#E4A7C5", GradientType=1 );
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid rgba(102, 166, 250, 0.815);
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 17%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
+div{
+    display: block;
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(102, 166, 250, 0.815);
+}
+
+.boton-agregar:hover{
+    opacity: 0,9;
+}
+
+
+.container {
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.item-input{
+  width: 450px;
+  height: 50px;
+  padding: 0px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+}
+
+.boton-editar{
+  height: 50px;
+  width: 50px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(102, 166, 250, 0.815);
+  color: white;
+}
+
+.boton-remover{
+  height: 50px;
+  width: 50px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(102, 166, 250, 0.815);
+  color: white;
+
+}
+
